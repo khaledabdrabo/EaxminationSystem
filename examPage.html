@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="SignUp.js"  ></script>
+</head>
+<body onload="countdown(); getquestions();">
+  
+    <div class="form_wrapper form_wrapper--size " id="xxx">
+        <div class="form_container">
+          <div class="title_container">
+            <h2 id="">Examination System </h2> <div>
+              <input id="minutes" type="text" style="width: 4rem; 
+              border: none; font-size: 16px;  
+             font-weight: bold; color: black;" ><font size="5"> : 
+                         </font> 
+         <input id="seconds" type="text" style="width: 4rem; 
+                         border: none; font-size: 16px; 
+                         font-weight: bold; color: black;"> </div></h1>
+          </div>
+          <div class="row clearfix">
+            <div class="holder">
+             <div class="holder-questions" id="1">
+
+<div class="holder-questions--question-text"><p id="questionHead"></p>
+
+
+    </div>
+   
+
+
+
+            
+
+
+    <div class="input_field radio_option display" id="radiobtns">
+      <div  >
+            <input type="radio" name="radiogroup1" id="rdi1" value="1">
+            <label for="rdi1" id="r1"></label></div>
+            <div >   <input type="radio" name="radiogroup1" id="rdi2" value="2">
+            <label for="rdi2" id="r2"></label></div>
+            <div >    <input type="radio" name="radiogroup1" id="rdi3" value="3">
+            <label for="rdi3" id="r3"></label></div>
+            <div >    <input type="radio" name="radiogroup1" id="rdi4"value="4">
+            <label for="rdi4" id="r4"></label></div>
+            </div>
+            </div>
+
+            
+
+<div class="scaped-question">
+  <ul id="marklist"></ul>
+</div>
+<div class="btn-holder">
+    <div class="btn btn btn--rounded btn--background btn--color btn--margin-right"><button onclick="previous()">previous</button> </div>
+  <div class="btn btn btn--rounded btn--background btn--color btn--margin-right"><button onclick="submit()">submit</button></div>
+  <div class="btn btn--rounded btn--background btn--color btn--margin-right"><button onclick="next()">next</button></div>
+  <div class="btn btn--rounded btn--background btn--color btn--margin-right"><button onclick="mark()">mark</button></div>
+
+</div>
+</div>
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>

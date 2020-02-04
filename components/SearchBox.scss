@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+
+.search {
+  width: 19rem;
+  height: 3rem;
+  margin-left: 4rem;
+    margin-top: 1rem;
+  background-color: white;
+  position: relative;
+  border-radius: 34px;
+  display: flex;
+  &__btn{
+    position: absolute;
+    width: 17%;
+    height: 3rem;
+    
+    img{
+      width: 100%;
+      height: 100%;
+    }
+    
+  
+
+  }
+  &__input{
+    border-radius: 2rem;
+    position: absolute;
+    width: 75%;
+    height: 94%;
+    border: 0px;
+    outline: none;
+    
+    left: 3rem;
+    ::placeholder {
+      color: red;
+      opacity: 1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: red;
+     }
+     
+     ::-ms-input-placeholder { /* Microsoft Edge */
+      color: red;
+     }
+     &--normal{
+      border-radius: 0rem;
+      height: 2rem;
+      width: 21rem;
+      background-color: transparent;
+      border-bottom: 2px solid black;
+
+      &--change-text
+      {
+        width: 76%;
+        position: absolute;
+        left: 1%;
+        height: 2.3rem;
+        border-color: #4f4444;
+      }
+     }
+
+
+  }
+  
+  
+}
+

@@ -1,0 +1,24 @@
+.fontSize{
+    display: flex;
+    justify-content: center;
+    
+    &--color{
+        
+        color: white;
+    }
+}
+.font{
+    display: flex;
+        justify-content: center;
+    &__color{
+        color: white;
+    }
+    &__size{
+        font-size: 18px;
+    font-weight: 600;
+
+    }
+    &__margin-botm{
+        margin-bottom: .5rem;
+    }
+}

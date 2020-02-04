@@ -1,0 +1,198 @@
+.holder-questions{
+    height: auto;
+    max-width: 67%;
+    &--question-text{
+        overflow-wrap: break-word;
+    }
+}
+.holder{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.display{
+    display: grid;
+}
+
+.btn-holder{
+    margin-left: 6rem;
+    display: flex;
+    overflow-wrap: break-word;
+    max-width: 15rem;
+}
+
+
+.text{
+    &--size{
+        font-size: 2rem;
+    }
+    &--color{
+        color: white;
+    }
+    &--border{
+        border: 2px solid black;
+    padding: 1rem;
+    }
+    &--margin-top{
+        margin-top: 3rem;
+    }
+    
+}
+.small-img{
+    position: absolute;
+    width: 2rem;
+    top: -1.5rem;
+    left: 48rem;
+    border: 8px solid white;
+}
+
+// .holder{
+//     display: flex;
+//     position: relative;
+//     justify-content: center;
+//     &--blocks{margin-left: 6rem;
+//         width: 92.9rem;
+//         display: flex;}
+//     &--line{
+//         margin-left: 3.5rem;
+//         font-size: 2rem;
+//         border-bottom: 3px solid red;
+//         padding-bottom: 6px;
+//         width: 5rem;
+//         &--left{
+//             margin-left: -0rem;
+//     font-size: 0rem;
+//     border-bottom: 2px solid red;
+//     padding-bottom: 10px;
+//     width: 3rem;
+//     margin-bottom: .4rem;
+
+//         }
+
+//     }
+//     &--poster{
+//         width: 87%;
+//         margin-left: 7rem;
+//         justify-content: center;
+//         align-items: center;
+//         &--medium{
+//             background-color: #ecf6f1;
+//             height: 8rem;
+//         }
+//         &--border{
+//             border: 2px solid white;
+//             width: 95%;
+//             height: 79%;
+//             position: absolute;
+//             align-items: center;
+//             justify-content: center;
+//             &--text{
+//                 display: flex;
+//                 justify-content: center;
+//                 //position: absolute;
+//                 //align-items: center;
+//                 color: white;
+//                 font-size: 3.5rem;
+//             }
+//         }
+//     }
+//     &--downPostion{
+//         top: 8rem;
+//     }
+//     &--card-bottom{
+//         display: block;
+//     background-color: white;
+//     height: 20%;
+//     }
+//     &--small{
+//         display: flex;
+//         position: absolute;
+//         left: 8rem;
+//         width: 5%;
+//         //left: -36rem;
+//     }
+//     &--text{
+//         position: absolute;
+//         left: 15%;
+//         width: 40%;
+//         font-size: 1.7rem;
+//     }
+//     &--large{
+//         position: absolute;
+//         top: 2rem;
+//         width: 98rem;
+//         &--input-text{
+//             position: absolute;
+//             display: flex;
+//             right: 9%;
+//             width: 25%;
+//             //background-color: aqua;
+//             height: 3rem;     
+//         }
+
+//     }
+//     &--wrap{
+//         flex-wrap: wrap;
+//     width: 100%;
+//     height: 44rem;
+    
+//     position: relative;
+    
+//     }
+//     &--footer{
+//         width: 100%;
+//     background-color: #151515;
+//     height: 21rem;
+//     &--copy-right{
+//         width: 98.9rem;
+//     position: absolute;
+//     height: 3rem;
+    
+//     top: 18rem;
+//     }
+//     }
+//     &--image{
+//         position: absolute;
+//     width: 9%;
+//     height: 37%;
+//     left: 47%;
+//     top: 18%;
+//     display: flex;
+//     padding-right: 11rem;
+//     padding-bottom: 5rem;
+//     justify-content: center;
+//     border: 1px;
+//     border-right: .1px solid #4f4444;
+//     }
+//     .holder-custom{
+      
+//     right: 4%;
+//     top: 5rem;
+//     position: absolute;
+//     width: 25%;
+//     height: 37%;
+//     &--input-text{
+//         display: flex;
+//         left: 64px;
+//         width: 77%;
+//         top: 3rem;
+//         position: absolute;
+//         height: 2.5rem;
+//         border: 1px solid;
+//         background-color: #4f4444;
+//     border-color: #4f4444;
+//     }
+//     }
+    
+// }
+
+.payment{
+    right: 115px;
+    position: absolute;
+    top: .57rem;
+}
+.copy-right{
+    position: absolute;
+    top: 1rem;
+    color: #989c9f;
+}

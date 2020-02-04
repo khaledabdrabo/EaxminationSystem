@@ -1,0 +1,53 @@
+.slider{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-position: center;
+ 
+ &__p{
+    position: absolute;
+    left: 47rem;
+    bottom: 27rem;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Open Sans regular';
+    &--customP{    
+        left: 45rem;
+        bottom: 23rem;
+        font-size: 3rem;
+        font-family: 'Open Sans light'
+    }
+ }
+    
+}
+.rightArrow{
+    width: 1rem;
+    height: 2rem;
+    position: absolute;
+    left: 95rem;
+    bottom: 20rem;
+    
+    }
+    .leftArrow{
+        width: 1rem;
+        height: 2rem;
+        position: absolute;
+        left: 1rem;
+        bottom: 20rem;       
+        }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+.circle{
+    position: absolute;
+    margin-left: 40rem;
+    width: auto;
+    height: 2rem;
+}
+.paging li{
+    display: inline;
+}
+li{
+    margin: 1rem;
+}

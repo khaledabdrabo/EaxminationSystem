@@ -1,0 +1,237 @@
+$primary-color:blue;
+$secondary-color:gray;
+
+
+.button{
+    
+    &__icon{
+        margin-left: 1rem;
+        width: 2rem;
+        height: 2rem;
+        margin-top: 2rem;
+        border-radius: 7rem;
+        background-color: white;
+        &:hover{
+            background-color:red;
+        }
+        &__tranceparency{
+            position: absolute;
+            top: -1rem;
+    
+            background-color: transparent;
+             right: 1%;
+            height: 1rem;
+        }
+        &__notification{
+            position:absolute;
+            width: 1rem;
+            height: 1rem;
+            margin-top: -3rem;
+            margin-left: 2.1rem;
+            border-radius: 1px solid white;
+            background-color: red;
+            p{
+                margin-left: .2rem;
+            }
+        }
+    
+    
+        img{
+            width:100%;
+            height:100%;
+        }
+    
+    }
+    &--rounded{
+        margin-right: .4rem;
+        width: 4rem;
+        height: 2rem;
+        margin-top: 2rem;
+        border-radius: 2rem;
+        border: 1px solid white;
+        img{
+            width: 17%;
+        height: 65%;
+        margin-left: 1rem;
+        margin-top: .3rem;
+            
+        }
+        p{
+            margin-top: .3rem;
+            margin-left: .3rem;
+            color: white;
+            img{
+                width: 23%;
+                margin-left: .5rem;
+
+            }
+        }
+
+    }
+    &--custom-button{
+        display: flex;
+        width: auto;
+        position: absolute;
+        left: 41rem;
+        bottom: 19rem;
+        &--ractangle{
+        margin-right: .5rem;
+        align-items: center;
+        width: 12rem;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+        border: 1px solid white;
+        &--custom{
+            
+            position: absolute;
+            background-color: #f33c3c;
+            width: 37%;
+            height: 2.7rem;
+            top: -3px;
+            left: 12rem;
+            transition: 0.25s;
+  
+            &:hover,
+            &:focus { 
+                transition: 0.9s;
+              border-color:wheat;
+              color:red;
+              //background-color: saddlebrown;
+              box-shadow: inset 6.5em 0 0 0 white;
+            }
+        }
+        &:hover{
+            background-color: white;
+            color: black;
+        }
+        }
+    }
+    
+    
+    
+}
+
+
+
+.btn{
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    &--rounded{
+        border-radius: 1rem;
+
+    }
+    &--background{
+        background-color: #f5ba1a;
+    }
+    &--color{
+        color: white;
+    }
+    &--margin-right{
+        margin-right: 5px;
+   
+    }
+    &--padd
+    &:hover{
+        background-color: #eba70a;
+    }
+}
+
+
+.bt{
+    font-size: 13px;
+    background-color: red;
+    width: 100px;
+    border: 1px solid black;
+    padding: 20px 10px;
+    border-radius: 2px;
+    position: relative;
+    &--primary{
+        background-color:$primary-color;
+        color :white;
+        display: inline-block;
+    }
+    &--secondary{
+        background-color:$secondary-color;
+        color :white;
+    }
+    &--sm{
+       font-size: 10%;
+       padding: 20px;
+    }
+    &__image{
+        position: absolute;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+
+
+// .btn{
+//     position: relative;
+//     font-size:8px ;
+//     font-family:sans-serif;
+//     font: bold;
+//     background-color:#9a9ea1;
+//     border:1px solid white;
+//     color: white;
+//     //position: relative;
+//     display: inline !important;
+//     margin: 0px;
+//     padding: 10px;
+//     border-bottom: 1px solid transparent;
+//     &--hover{
+//         &:hover{
+//             background-color:#ffffff ;
+//             color:  black;
+//             border:1px solid black;
+//         }
+
+//     }
+    
+        
+   
+    
+//     &--rounded-border{
+        
+//        padding: .5rem 2rem;
+
+//         border-radius: 1rem;
+//         &__image{
+//            left: 0;
+//            bottom: 0;
+//             position: absolute;
+//             padding-left: 1.5rem;
+//             display: flex;
+//             justify-content: center;
+//             width: 1rem;
+//             height: 1rem;
+//             img{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//         }
+//         &__icon{
+//             left: 0;
+//            bottom: 0;
+//             position: absolute;
+//             padding-left: 1.5rem;
+//             display: flex;
+//             justify-content: center;
+//             width: 1rem;
+//             height: 1rem;
+//             img{
+//                 width: 100%;
+//                 height: 100%;
+//             }
+//         }
+        
+//     }
+    
+    
+// }
